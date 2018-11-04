@@ -15,3 +15,7 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     testCompile 'org.seleniumhq.selenium:selenium-java:3.14.0'
 }
+
+test {
+    maxParallelForks = 10
+}

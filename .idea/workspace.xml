@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="50e15ec3-9125-4c12-b5a7-be5fd9f3aeb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,8 +49,8 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -65,14 +67,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="1" />
-          <entry key="java" value="334" />
+          <entry key="gradle" value="23" />
+          <entry key="java" value="815" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="334" />
+          <entry key="Groovy" value="23" />
+          <entry key="JAVA" value="815" />
         </counts>
       </usages-collector>
     </session>
@@ -82,17 +84,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+            <state relative-caret-position="323">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="204">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,20 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,13 +115,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/3.14.0/93de6f682174eb83ff790802a40366c4e3abd12/selenium-firefox-driver-3.14.0-sources.jar!/org/openqa/selenium/firefox/FirefoxDriver.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="98" column="29" lean-forward="true" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="32" />
+            <state relative-caret-position="323">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
-                <element signature="e#3991#3992#0" expanded="true" />
-                <element signature="e#4027#4028#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -443,10 +435,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/LoginTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java" />
       </list>
     </option>
   </component>
@@ -502,8 +494,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,20 +516,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest.loginTest">
-    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium_training_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.LoginTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.selenium_training [test]">
+    <configuration name="selenium_training [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="selenium_training [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="selenium_training" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
     </configuration>
     <configuration name="LoginTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_training_test" />
@@ -555,7 +585,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyFirstTest.myFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_training_test" />
       <extension name="coverage">
         <pattern>
@@ -565,20 +595,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.MyFirstTest" />
+      <option name="METHOD_NAME" value="myFirstTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyFirstTest" />
       <item itemvalue="JUnit.LoginTest.loginTest" />
-      <item itemvalue="JUnit.LoginTest" />
+      <item itemvalue="Gradle.selenium_training" />
+      <item itemvalue="Gradle.selenium_training [test]" />
+      <item itemvalue="Gradle.selenium_training [dependencies]" />
+      <item itemvalue="JUnit.MyFirstTest.myFirstTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.selenium_training [test]" />
+        <item itemvalue="JUnit.MyFirstTest.myFirstTest" />
+        <item itemvalue="Gradle.selenium_training" />
+        <item itemvalue="Gradle.selenium_training [dependencies]" />
         <item itemvalue="JUnit.LoginTest.loginTest" />
-        <item itemvalue="JUnit.LoginTest" />
-        <item itemvalue="JUnit.MyFirstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -596,42 +632,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_loginTest - 2018.11.03 at 13h 12m 10s.xml">
-      <configuration name="LoginTest.loginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest_loginTest - 2018.11.03 at 13h 13m 10s.xml">
-      <configuration name="LoginTest.loginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest_loginTest - 2018.11.03 at 13h 13m 45s.xml">
-      <configuration name="LoginTest.loginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest - 2018.11.03 at 13h 14m 54s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest_loginTest - 2018.11.03 at 13h 15m 16s.xml">
-      <configuration name="LoginTest.loginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest_loginTest - 2018.11.03 at 13h 16m 25s.xml">
-      <configuration name="LoginTest.loginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest_loginTest - 2018.11.03 at 13h 30m 30s.xml">
-      <configuration name="LoginTest.loginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest_loginTest - 2018.11.03 at 13h 54m 21s.xml">
-      <configuration name="LoginTest.loginTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LoginTest_loginTest - 2018.11.03 at 14h 04m 39s.xml">
       <configuration name="LoginTest.loginTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LoginTest_loginTest - 2018.11.03 at 14h 05m 21s.xml">
       <configuration name="LoginTest.loginTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="selenium_training_[test] - 2018.11.04 at 15h 41m 12s.xml">
+      <configuration name="selenium_training [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="selenium_training_[test] - 2018.11.04 at 15h 46m 11s.xml">
+      <configuration name="selenium_training [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="selenium_training_[test] - 2018.11.04 at 15h 49m 23s.xml">
+      <configuration name="selenium_training [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="selenium_training_[test] - 2018.11.04 at 15h 49m 32s.xml">
+      <configuration name="selenium_training [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="selenium_training_[test] - 2018.11.04 at 15h 50m 54s.xml">
+      <configuration name="selenium_training [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="MyFirstTest_myFirstTest - 2018.11.04 at 15h 51m 18s.xml">
+      <configuration name="MyFirstTest.myFirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_myFirstTest - 2018.11.04 at 15h 51m 40s.xml">
+      <configuration name="MyFirstTest.myFirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="selenium_training_[test] - 2018.11.04 at 15h 52m 19s.xml">
+      <configuration name="selenium_training [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -648,7 +684,6 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.50161815" side_tool="true" visible="true" weight="0.07569297" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -656,6 +691,7 @@
       <window_info anchor="right" id="Gradle" order="4" sideWeight="0.49838188" visible="true" weight="0.07569297" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.50161815" side_tool="true" visible="true" weight="0.07569297" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -681,24 +717,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -708,7 +730,7 @@
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/3.14.0/93de6f682174eb83ff790802a40366c4e3abd12/selenium-firefox-driver-3.14.0-sources.jar!/org/openqa/selenium/firefox/FirefoxDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
-          <caret line="98" column="29" lean-forward="true" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="32" />
+          <caret line="98" column="29" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="32" />
           <folding>
             <element signature="e#3991#3992#0" expanded="true" />
             <element signature="e#4027#4028#0" expanded="true" />
@@ -718,8 +740,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        <state relative-caret-position="323">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
