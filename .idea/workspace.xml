@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50e15ec3-9125-4c12-b5a7-be5fd9f3aeb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/GoThroughAllElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CheckStickers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -59,25 +57,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="8" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="23" />
-          <entry key="java" value="1173" />
+          <entry key="java" value="1469" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="23" />
-          <entry key="JAVA" value="1173" />
+          <entry key="JAVA" value="1469" />
         </counts>
       </usages-collector>
     </session>
@@ -105,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/GoThroughAllElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="187">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,34 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CheckStickers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="289">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -466,6 +441,7 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/GoThroughAllElements.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CheckStickers.java" />
       </list>
     </option>
   </component>
@@ -544,25 +520,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GoThroughAllElements.goThroughAllElements">
-    <configuration name="selenium_training [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CheckStickers.checkStickers">
     <configuration name="selenium_training [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -596,6 +554,22 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <method v="2" />
+    </configuration>
+    <configuration name="CheckStickers.checkStickers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_training_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.CheckStickers" />
+      <option name="METHOD_NAME" value="checkStickers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="GoThroughAllElements.goThroughAllElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_training_test" />
@@ -632,17 +606,17 @@
     <list>
       <item itemvalue="Gradle.selenium_training" />
       <item itemvalue="Gradle.selenium_training [test]" />
-      <item itemvalue="Gradle.selenium_training [dependencies]" />
       <item itemvalue="JUnit.MyFirstTest.myFirstTest" />
       <item itemvalue="JUnit.GoThroughAllElements.goThroughAllElements" />
+      <item itemvalue="JUnit.CheckStickers.checkStickers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckStickers.checkStickers" />
         <item itemvalue="JUnit.GoThroughAllElements.goThroughAllElements" />
         <item itemvalue="Gradle.selenium_training [test]" />
         <item itemvalue="JUnit.MyFirstTest.myFirstTest" />
         <item itemvalue="Gradle.selenium_training" />
-        <item itemvalue="Gradle.selenium_training [dependencies]" />
       </list>
     </recent_temporary>
   </component>
@@ -660,35 +634,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 19m 52s.xml">
+    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 48m 03s.xml">
       <configuration name="GoThroughAllElements.goThroughAllElements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 21m 49s.xml">
+    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 48m 04s.xml">
       <configuration name="GoThroughAllElements.goThroughAllElements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 24m 19s.xml">
+    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 48m 21s.xml">
       <configuration name="GoThroughAllElements.goThroughAllElements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 40m 48s.xml">
+    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 49m 03s.xml">
       <configuration name="GoThroughAllElements.goThroughAllElements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 41m 18s.xml">
-      <configuration name="GoThroughAllElements.goThroughAllElements" configurationId="JUnit" />
+    <history-entry file="CheckStickers_checkStickers - 2018.11.05 at 18h 09m 06s.xml">
+      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 42m 20s.xml">
-      <configuration name="GoThroughAllElements.goThroughAllElements" configurationId="JUnit" />
+    <history-entry file="CheckStickers_checkStickers - 2018.11.05 at 18h 09m 46s.xml">
+      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 43m 11s.xml">
-      <configuration name="GoThroughAllElements.goThroughAllElements" configurationId="JUnit" />
+    <history-entry file="CheckStickers_checkStickers - 2018.11.05 at 18h 10m 04s.xml">
+      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 44m 02s.xml">
-      <configuration name="GoThroughAllElements.goThroughAllElements" configurationId="JUnit" />
+    <history-entry file="CheckStickers_checkStickers - 2018.11.05 at 18h 11m 19s.xml">
+      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 44m 13s.xml">
-      <configuration name="GoThroughAllElements.goThroughAllElements" configurationId="JUnit" />
+    <history-entry file="CheckStickers_checkStickers - 2018.11.05 at 18h 11m 40s.xml">
+      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 44m 50s.xml">
-      <configuration name="GoThroughAllElements.goThroughAllElements" configurationId="JUnit" />
+    <history-entry file="CheckStickers_checkStickers - 2018.11.05 at 18h 13m 09s.xml">
+      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -740,17 +714,16 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CheckStickers.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/3.14.0/93de6f682174eb83ff790802a40366c4e3abd12/selenium-firefox-driver-3.14.0-sources.jar!/org/openqa/selenium/firefox/FirefoxDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
@@ -797,17 +770,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/GoThroughAllElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="187">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/GoThroughAllElements.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CheckStickers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
