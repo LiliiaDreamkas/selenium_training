@@ -12,10 +12,10 @@ public class CheckStickers extends TestBase {
     @Test
     public void checkStickers() {
         driver.get("http://localhost/litecart/");
-        List<WebElement> products = driver.findElements(By.cssSelector("div.image-wrapper"));
+        List<WebElement> products = driver.findElements(By.cssSelector("li[class ^= product]"));
         for (int i = 0; i < products.size(); i++) {
             WebElement currentProduct = products.get(i);
-            List<WebElement> stickers = currentProduct.findElements(By.cssSelector("div [class *= sticker]"));
+            List<WebElement> stickers = currentProduct.findElements(By.cssSelector("div[class ^= sticker]"));
             Assert.assertTrue("Current element has "  + stickers.size() + " stickers", stickers.size() == 1);
         }
     }

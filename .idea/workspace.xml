@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50e15ec3-9125-4c12-b5a7-be5fd9f3aeb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CheckStickers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CheckStickers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CheckStickers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -48,34 +48,34 @@
     <session id="-116003055">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.5" value="4" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="23" />
-          <entry key="java" value="1469" />
+          <entry key="java" value="1479" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="23" />
-          <entry key="JAVA" value="1469" />
+          <entry key="JAVA" value="1479" />
         </counts>
       </usages-collector>
     </session>
@@ -94,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="187">
               <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -118,10 +118,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CheckStickers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state relative-caret-position="255">
+              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="e#1657#1658#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -634,34 +646,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 48m 03s.xml">
-      <configuration name="GoThroughAllElements.goThroughAllElements" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 48m 04s.xml">
-      <configuration name="GoThroughAllElements.goThroughAllElements" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 48m 21s.xml">
-      <configuration name="GoThroughAllElements.goThroughAllElements" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoThroughAllElements_goThroughAllElements - 2018.11.05 at 17h 49m 03s.xml">
-      <configuration name="GoThroughAllElements.goThroughAllElements" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckStickers_checkStickers - 2018.11.05 at 18h 09m 06s.xml">
-      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckStickers_checkStickers - 2018.11.05 at 18h 09m 46s.xml">
-      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckStickers_checkStickers - 2018.11.05 at 18h 10m 04s.xml">
-      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckStickers_checkStickers - 2018.11.05 at 18h 11m 19s.xml">
-      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CheckStickers_checkStickers - 2018.11.05 at 18h 11m 40s.xml">
       <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CheckStickers_checkStickers - 2018.11.05 at 18h 13m 09s.xml">
+      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckStickers_checkStickers - 2018.11.05 at 18h 13m 33s.xml">
+      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckStickers_checkStickers - 2018.11.10 at 08h 58m 54s.xml">
+      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckStickers_checkStickers - 2018.11.10 at 08h 59m 36s.xml">
+      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckStickers_checkStickers - 2018.11.10 at 09h 00m 10s.xml">
+      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckStickers_checkStickers - 2018.11.10 at 09h 01m 01s.xml">
+      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckStickers_checkStickers - 2018.11.10 at 09h 01m 42s.xml">
+      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckStickers_checkStickers - 2018.11.10 at 09h 02m 02s.xml">
+      <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckStickers_checkStickers - 2018.11.10 at 09h 02m 54s.xml">
       <configuration name="CheckStickers.checkStickers" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -669,7 +681,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -716,25 +728,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CheckStickers.java</url>
-          <line>13</line>
+          <line>15</line>
           <properties />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="products.size()" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/3.14.0/93de6f682174eb83ff790802a40366c4e3abd12/selenium-firefox-driver-3.14.0-sources.jar!/org/openqa/selenium/firefox/FirefoxDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="98" column="29" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -760,9 +770,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="187">
           <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -780,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -799,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CheckStickers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="255">
+          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
