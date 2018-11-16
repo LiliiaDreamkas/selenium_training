@@ -5,8 +5,11 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import java.util.ArrayList;
+
 public class CheckProductPageTest extends TestBase{
 
+    //а
     @Test
     public void checkProductName() {
         driver.get("http://localhost/litecart/");
@@ -20,6 +23,7 @@ public class CheckProductPageTest extends TestBase{
                 currentProductName.equals(currentProductNameOnProductPage));
     }
 
+    //б
     @Test
     public void checkPrice() {
         driver.get("http://localhost/litecart/");
@@ -37,5 +41,27 @@ public class CheckProductPageTest extends TestBase{
         Assert.assertTrue(String.format("Campaign price on general page (\"%s\") and home page (\"%s\") don't match",
                 campaignPrice, campaignPriceOnProductPage),
                 campaignPrice.equals(campaignPriceOnProductPage));
+    }
+
+    //в
+    @Test
+    public void checkRegularPriceParameters() {
+        driver.get("http://localhost/litecart/");
+        WebElement currentProduct = driver.findElement(By.cssSelector("div#box-campaigns li[class *= product]"));
+        String linePresence = currentProduct.findElement(By.cssSelector("s.regular-price")).getCssValue("text-decoration");
+        Assert.assertTrue("Regular price on general page is not crossed", linePresence.contains("line-through"));
+        String regularPriceColor = currentProduct.findElement(By.cssSelector("s.regular-price")).getCssValue("color");
+        checkColorValue(regularPriceColor);
+    }
+
+    private void checkColorValue(String regularPriceColor) {
+        regularPriceColor = regularPriceColor.replace("rgb", "").replace("a", "").replace("(", "")
+                .replace(")", "").replace(" ", "");
+        String[] colorParameters = regularPriceColor.split(",");
+        String r = colorParameters[0];
+        String g = colorParameters[1];
+        String b = colorParameters[2];
+        Assert.assertTrue("Regular price on general page is not gray",
+                (r.equals(g) && g.equals(b)));
     }
 }
