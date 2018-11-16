@@ -80,6 +80,16 @@ public class CheckProductPageTest extends TestBase{
         checkColorValue(regularPriceColor, "red");
     }
 
+    //д
+    @Test
+    public void campaignPriceIsBiggerThanRegular() {
+        driver.get("http://localhost/litecart/");
+        WebElement currentProduct = driver.findElement(By.cssSelector("div#box-campaigns li[class *= product]"));
+        int regularPriceSize = currentProduct.findElement(By.cssSelector("s.regular-price")).getSize().height;
+        int campaignPriceSize = currentProduct.findElement(By.cssSelector("strong.campaign-price")).getSize().height;
+        assertTrue("Regular price is not smaller than campaign", campaignPriceSize > regularPriceSize);
+    }
+
     private void checkThatElementHaveLine(String elementTag) {
         assertTrue("Element is not crossed", (elementTag.equals("s") || elementTag.equals("strike") || elementTag.equals("strike")));
     }
