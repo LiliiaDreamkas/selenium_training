@@ -52,6 +52,12 @@ public class CheckProductPageTest extends TestBase{
         Assert.assertTrue("Regular price on general page is not crossed", linePresence.contains("line-through"));
         String regularPriceColor = currentProduct.findElement(By.cssSelector("s.regular-price")).getCssValue("color");
         checkColorValue(regularPriceColor);
+        currentProduct.click();
+        WebElement regPrice = driver.findElement(By.cssSelector("div#box-product s.regular-price"));
+        linePresence = regPrice.getCssValue("text-decoration");
+        Assert.assertTrue("Regular price on product page is not crossed", linePresence.contains("line-through"));
+        regularPriceColor = regPrice.getCssValue("color");
+        checkColorValue(regularPriceColor);
     }
 
     private void checkColorValue(String regularPriceColor) {
@@ -61,7 +67,7 @@ public class CheckProductPageTest extends TestBase{
         String r = colorParameters[0];
         String g = colorParameters[1];
         String b = colorParameters[2];
-        Assert.assertTrue("Regular price on general page is not gray",
+        Assert.assertTrue("Regular price is not gray",
                 (r.equals(g) && g.equals(b)));
     }
 }

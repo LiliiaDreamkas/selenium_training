@@ -16,6 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class TestBase {
 
@@ -36,6 +37,7 @@ public class TestBase {
 //        driver = new FirefoxDriver(caps);
 //        driver = new InternetExplorerDriver();
 //        driver = new EdgeDriver();
+//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         tlDriver.set(driver);
         wait = new WebDriverWait(driver, 10);
 
