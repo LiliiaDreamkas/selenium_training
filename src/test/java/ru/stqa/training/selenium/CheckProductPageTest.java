@@ -85,9 +85,20 @@ public class CheckProductPageTest extends TestBase{
     public void campaignPriceIsBiggerThanRegular() {
         driver.get("http://localhost/litecart/");
         WebElement currentProduct = driver.findElement(By.cssSelector("div#box-campaigns li[class *= product]"));
-        int regularPriceSize = currentProduct.findElement(By.cssSelector("s.regular-price")).getSize().height;
-        int campaignPriceSize = currentProduct.findElement(By.cssSelector("strong.campaign-price")).getSize().height;
-        assertTrue("Regular price is not smaller than campaign", campaignPriceSize > regularPriceSize);
+        int regularPriceHeight = currentProduct.findElement(By.cssSelector("s.regular-price")).getSize().height;
+        int campaignPriceHeight = currentProduct.findElement(By.cssSelector("strong.campaign-price")).getSize().height;
+        int regularPriceWidth= currentProduct.findElement(By.cssSelector("s.regular-price")).getSize().width;
+        int campaignPriceWidth = currentProduct.findElement(By.cssSelector("strong.campaign-price")).getSize().width;
+        assertTrue("Regular price is not smaller than campaign", (campaignPriceHeight > regularPriceHeight && campaignPriceWidth > regularPriceWidth));
+
+        currentProduct.click();
+
+        regularPriceHeight = driver.findElement(By.cssSelector("div#box-product s.regular-price")).getSize().height;
+        campaignPriceHeight = driver.findElement(By.cssSelector("div#box-product strong.campaign-price")).getSize().height;
+        regularPriceWidth= driver.findElement(By.cssSelector("div#box-product s.regular-price")).getSize().width;
+        campaignPriceWidth = driver.findElement(By.cssSelector("div#box-product strong.campaign-price")).getSize().width;
+        assertTrue("Regular price is not smaller than campaign", (campaignPriceHeight > regularPriceHeight && campaignPriceWidth > regularPriceWidth));
+
     }
 
     private void checkThatElementHaveLine(String elementTag) {
