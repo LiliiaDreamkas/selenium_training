@@ -37,7 +37,7 @@ public class TestBase {
 //        driver = new FirefoxDriver(caps);
 //        driver = new InternetExplorerDriver();
 //        driver = new EdgeDriver();
-//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         tlDriver.set(driver);
         wait = new WebDriverWait(driver, 10);
 
