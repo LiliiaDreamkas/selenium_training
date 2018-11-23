@@ -2,7 +2,6 @@ package ru.stqa.training.selenium;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -36,17 +35,6 @@ public class WorkingWithCartTest extends TestBase {
         int productCount = driver.findElements(By.cssSelector("li.item")).size();
 
         for (int i = 0; i < productCount; i++) {
-            /*при наличии нескольких элементов, в корзине они показываются один за другим. Чтобы не было ситуации,
-            когда кнопка стала недоступной из-за того, что оказалась за левым краем экрана, можно сделать проверку на изменение
-            видимости элемента, после этого момента есть несколько секунд, чтобы найти и кликнуть по кнопке,
-            удаляющей следующий элемент. Ждать пока именно этот элемент станет видимым неудобно при большом количестве
-            элементов.
-             */
-            if (driver.findElements(By.cssSelector("li.item")).size() > 1) {
-                WebElement removeButton = driver.findElement(By.cssSelector("button[name = remove_cart_item]"));
-//                wait.until(ExpectedConditions.not(ExpectedConditions.visibilityOf(removeButton)));
-                wait.until(ExpectedConditions.refreshed(ExpectedConditions.visibilityOf(removeButton)));
-            }
             WebElement productsTable = driver.findElement(By.cssSelector("div#box-checkout-summary"));
             driver.findElement(By.cssSelector("button[name = remove_cart_item]")).click();
             wait.until(ExpectedConditions.stalenessOf(productsTable));
