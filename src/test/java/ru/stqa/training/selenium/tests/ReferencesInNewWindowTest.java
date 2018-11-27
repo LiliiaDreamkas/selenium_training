@@ -1,4 +1,4 @@
-package ru.stqa.training.selenium;
+package ru.stqa.training.selenium.tests;
 
 import org.checkerframework.checker.nullness.compatqual.NullableDecl;
 import org.junit.Test;
@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import java.util.List;
 import java.util.Set;
 
-public class referencesInNewWindowTest extends TestBase {
+public class ReferencesInNewWindowTest extends TestBase {
 
     @Test
     public void refInNewWindow() {

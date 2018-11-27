@@ -1,7 +1,6 @@
-package ru.stqa.training.selenium;
+package ru.stqa.training.selenium.tests;
 
 import org.junit.Test;
-import org.openqa.selenium.By;
 
 public class LoginTest extends TestBase {
 
