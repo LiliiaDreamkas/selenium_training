@@ -12,7 +12,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import ru.stqa.training.selenium.model.Product;
+import ru.stqa.training.selenium.pages.CartPage;
+import ru.stqa.training.selenium.pages.MainPage;
+import ru.stqa.training.selenium.pages.ProductPage;
 
 import java.io.File;
 import java.util.List;
@@ -23,12 +29,18 @@ public class TestBase {
     public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
     public WebDriver driver;
     public WebDriverWait wait;
+    public MainPage mainPage;
+    public ProductPage productPage;
+    public CartPage cartPage;
 
     @Before
     public void start() {
         if (tlDriver.get() != null) {
             driver = tlDriver.get();
             wait = new WebDriverWait(driver, 10);
+            mainPage = new MainPage(driver, wait);
+            productPage = new ProductPage(driver, wait);
+            cartPage = new CartPage(driver, wait);
             return;
         }
         driver = new ChromeDriver();
@@ -40,6 +52,10 @@ public class TestBase {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         tlDriver.set(driver);
         wait = new WebDriverWait(driver, 10);
+
+        mainPage = new MainPage(driver, wait);
+        productPage = new ProductPage(driver, wait);
+        cartPage = new CartPage(driver, wait);
 
         Runtime.getRuntime().addShutdownHook(new Thread(() -> { driver.quit(); driver = null; }));
     }
@@ -58,5 +74,25 @@ public class TestBase {
             driver.findElement(By.name("password")).sendKeys("admin");
             driver.findElement(By.name("login")).click();
         }
+    }
+
+    public void putFewRandomProductsWithDefaultParametersToCart(int productsCount) {
+        for (int i = 0; i < productsCount; i++) {
+            mainPage.open();
+            mainPage.clickOnRandomProduct();
+            Product product = new Product().withQuantity("1").withSize("Small");
+            productPage.putProductToCart(product);
+        }
+    }
+
+    public void deleteAllProductsFromCart() {
+        int productCount = cartPage.getProductCount();
+        for (int i = 0; i < productCount; i++) {
+            cartPage.deleteRandomProduct();
+        }
+    }
+
+    public void goToCart() {
+        cartPage.goToCart();
     }
 }
